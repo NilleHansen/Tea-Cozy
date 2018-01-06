@@ -93,6 +93,7 @@ p {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
   width: 1200px;
+  align-items: center;
 }
 
 .container.mission {
@@ -148,11 +149,21 @@ p {
 
 
 
-.container.bottom {
+.container.bottom h2 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   text-align: center;
   flex-flow: row;
   height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+
+.container.locations {
+  display: inline-block;
+  flex-flow: wrap;
+  display: flex;
+
 }
 
 .container.downtown {
