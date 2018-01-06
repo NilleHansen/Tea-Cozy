@@ -94,6 +94,7 @@ p {
   height: 700px;
   width: 1200px;
   align-items: center;
+  margin: 0 auto;
 }
 
 .container.mission {
@@ -102,13 +103,14 @@ p {
   align-items: center;
   text-align: center;
   margin: 0 auto;
-  display: inline-block;
+
 
 }
 
 .container.center {
   width: 1000px;
   text-align: center;
+  margin: 0 auto;
 }
 
 #monthtea {
