@@ -1,0 +1,135 @@
+element.style {}
+
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+
+.flex.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+
+}
+
+#logo {
+height: 50px;
+padding-left: 10px;
+}
+
+nav {
+
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+  text-align: right;
+
+}
+
+a {
+  text-decoration: underline;
+  display: inline-block;
+  color: seashell;
+}
+
+
+body {
+  background-color: black;
+  font-family: helvetica;
+  color: seashell;
+  font-size: 22px;
+
+}
+
+h2 {
+  align-content: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+}
+
+h3 {
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background: black;
+
+}
+
+h4 {
+  align-items: center;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+p {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+
+}
+
+.container.top {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+}
+
+.container.mission {
+  background-color: black;
+  width: 1200px;
+  align-items: center;
+  text-align: center;
+
+}
+
+.container.center {
+  width: 1000px;
+  text-align: center;
+}
+
+#monthtea {
+  height: 200px;
+  width: 300px;
+}
+
+.container.bottom {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  text-align: center;
+  flex-flow: row;
+  height: 500px;
+}
+
+.container.downtown {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.container.bayside {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+.container.oakdale {
+  background-color: black;
+  width: 300px;
+  height: 300px;
+}
+
+footer {
+  text-align: left;
+}
