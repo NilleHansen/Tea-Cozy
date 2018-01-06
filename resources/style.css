@@ -25,6 +25,8 @@ left: 0;
 }
 
 nav {
+  text-align: right;
+  flex-grow: 1;
 
 
 }
