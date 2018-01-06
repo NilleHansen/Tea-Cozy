@@ -8,6 +8,7 @@ header {
   background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
+  top: 0;
 }
 
 .flex.container {
@@ -22,6 +23,7 @@ padding-left: 10px;
 }
 
 nav {
+  justify-content: space-between;
 
 }
 
@@ -29,6 +31,8 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   text-align: right;
+
+
 
 }
 
