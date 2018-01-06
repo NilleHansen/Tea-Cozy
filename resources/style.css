@@ -113,6 +113,28 @@ p {
   width: 300px;
 }
 
+.blitz {
+  padding: 10px;
+}
+
+.rum {
+  padding: 10px;
+}
+
+.donut {
+  padding: 10px;
+}
+
+.ave {
+  padding: 10px;
+}
+
+.bizarre {
+  padding: 10px;
+}
+
+
+
 .container.bottom {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   text-align: center;
