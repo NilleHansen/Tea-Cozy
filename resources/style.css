@@ -75,6 +75,7 @@ h4 {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  margin-top: auto;
 }
 
 p {
@@ -145,6 +146,7 @@ p {
   display: inline-block;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 2px;
 }
 
 
@@ -181,6 +183,10 @@ p {
   display: inline-block;
   align-content: center;
   justify-content: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin: 0px 20px;
 
 }
 
