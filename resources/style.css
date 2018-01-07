@@ -108,11 +108,11 @@ p {
   height: 700px;
 }
 
-.flex.container #center {
+ #center {
+  height: 700px;
   width: 1000px;
   text-align: center;
   margin: 0 auto;
-  display: flex;
 }
 
 #steeping {
