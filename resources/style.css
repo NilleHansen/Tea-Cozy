@@ -35,9 +35,6 @@ nav span {
   display: inline-block;
   padding: 20px 10px;
   text-align: right;
-
-
-
 }
 
 
@@ -48,12 +45,12 @@ a {
 }
 
 
+
 body {
   background-color: black;
   font-family: helvetica;
   color: seashell;
   font-size: 22px;
-
 }
 
 h2 {
@@ -70,7 +67,6 @@ h3 {
   font-size: 22px;
   color: seashell;
   background: black;
-
 }
 
 h4 {
@@ -79,6 +75,7 @@ h4 {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
+  background-color: black;
 }
 
 p {
@@ -86,17 +83,17 @@ p {
   font-size: 22px;
   color: seashell;
   opacity: 0.9;
-
+  text-align: center;
 }
 
-.container.top {
-
+.container {
   width: 1200px;
   align-items: center;
   margin: 0 auto;
 }
 
-.flex.container.mission {
+
+.box {
   background-color: black;
   width: 1200px;
   align-items: center;
@@ -104,10 +101,10 @@ p {
   margin: 0 auto;
 }
 
-#mission {
+
+#top {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
   height: 700px;
-
 }
 
 .container.center {
@@ -115,6 +112,7 @@ p {
   text-align: center;
   margin: 0 auto;
 }
+
 
 #monthtea {
   height: 200px;
