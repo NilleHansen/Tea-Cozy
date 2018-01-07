@@ -107,8 +107,15 @@ p {
   height: 700px;
 }
 
-.container.center {
+.flex.container #center {
   width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+}
+
+#steeping {
+  width: 100%;
   text-align: center;
   margin: 0 auto;
 }
@@ -117,37 +124,22 @@ p {
 #monthtea {
   height: 200px;
   width: 300px;
+  padding: 10px;
 }
 
-.container.tea {
+.box {
   display: inline-block;
   flex-flow: wrap;
+}
+
+.box, #teabox {
   display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
-.fall{
-  padding: 10px;
-  display: inline-block;
-}
-
-.spiced {
-  padding: 10px;
-  display: inline-block;
-}
-
-.seasonal {
-  padding: 10px;
-  display: inline-block;
-}
-
-.myrtle {
-  padding: 10px;
-  display: inline-block;
-}
-
-.bedford {
-  padding: 10px;
-  display: inline-block;
+.box, #tea {
+  display: block;
 }
 
 
