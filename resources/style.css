@@ -104,6 +104,7 @@ p {
 
 #top {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  background-repeat: no-repeat;
   height: 700px;
 }
 
@@ -146,6 +147,7 @@ p {
 
 .container.bottom h2 {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  background-repeat: no-repeat;
   text-align: center;
   flex-flow: row;
   height: 500px;
