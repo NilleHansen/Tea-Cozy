@@ -136,12 +136,13 @@ p {
 
 #teabox {
   display: flex;
+  width: 100% auto;
 }
 
 #tea {
-  display: block;
   display: inline-block;
-  flex-flow: wrap;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
