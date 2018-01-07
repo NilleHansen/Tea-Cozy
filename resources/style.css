@@ -109,10 +109,11 @@ p {
 }
 
  #center {
-  height: 700px;
+  height: 30% auto;
   width: 1000px;
   text-align: center;
   margin: 0 auto;
+  display: flex;
 }
 
 #steeping {
@@ -178,4 +179,5 @@ p {
 
 footer {
   text-align: left;
+  margin-bottom: 0 auto;
 }
