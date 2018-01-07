@@ -165,7 +165,7 @@ p {
 
 
 #address {
-  display: inline-block;
+  display: flex;
   align-content: center;
 }
 
@@ -175,6 +175,7 @@ p {
   height: 300px;
   display: inline-block;
   align-content: space-around;
+  justify-content: center;
 
 }
 
